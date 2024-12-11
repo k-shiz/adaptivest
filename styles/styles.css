@@ -148,9 +148,9 @@ a {
   font-size: 55px;
   text-transform: uppercase;
 }
-.slider__controls{
+.slider__controls {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   margin-top: auto;
   margin-top: 80px;
 }
@@ -211,6 +211,7 @@ a {
 
 .delivery__h2 {
   font-size: 30px;
+  line-height: 2.25rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -357,6 +358,7 @@ a {
 
 .new__h1 {
   font-size: 36px;
+  line-height: 2.25rem;
   font-weight: 700;
   text-align: center;
   text-transform: uppercase;
