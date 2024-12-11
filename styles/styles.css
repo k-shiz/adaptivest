@@ -547,17 +547,17 @@ a {
   margin-right: 4px;
 }
 
-@media (max-width: 1326px) {
+@media (max-width: 1300px) {
   .slider__button {
-    top: 55%;
+    top: 47%;
   }
 
   .slider__button--prev {
-    left: 24px;
+    left: -24px;
   }
 
   .slider__button--next {
-    right: 24px;
+    right: -24px;
   }
 }
 
@@ -582,6 +582,17 @@ a {
     margin: 0;
     padding: 24px;
   }
+    .slider__button {
+      top: 47%;
+    }
+  
+    .slider__button--prev {
+      left: 24px;
+    }
+  
+    .slider__button--next {
+      right: 24px;
+    }
 }
 
 @media (max-width: 992px) {
@@ -676,6 +687,11 @@ a {
 @media (max-width: 350px) {
   .footer {
     height: 700px;
+  }
+}
+@media (max-width: 343px) {
+  .footer {
+    height: 830px;
   }
 }
 .show {
