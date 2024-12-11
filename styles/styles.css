@@ -684,6 +684,12 @@ a {
     padding-bottom: 20px;
   }
 }
+@media (max-width:387px) {
+  .man-woman__link {
+    height: 100px;
+    width:150px;
+  }
+}
 @media (max-width: 350px) {
   .footer {
     height: 700px;
